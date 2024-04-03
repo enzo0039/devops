@@ -5,13 +5,13 @@ Déploiement via docker-compose d'une application Flask utilisant Prometheus pou
 ### Installation des dépendances
 
 ```bash
-pip install -r api/requirements.txt
+pip install -r flask-app/requirements.txt
 ```
 
 ### Configuration et exécution du docker-compose
 
 ```bash
-docker-compose up
+docker compose up -d
 ```
 
 ### Accès
