@@ -1,4 +1,4 @@
-## Prometheus x Grafana x Flask
+## 🚀 Prometheus x Grafana x Flask 🚀
 
 Déploiement via docker-compose d'une application Flask utilisant Prometheus pour les métriques et Grafana pour le dashboard.
 
