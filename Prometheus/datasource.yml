@@ -1,30 +1,8 @@
 apiVersion: 1
 
-deleteDatasources:
-  - name: Prometheus
-    orgId: 1
-
 datasources:
-- name: Prometheus
-  type: prometheus
-  access: proxy
-  orgId: 1
-  url: http://172.10.1.20:9090
-  password:
-  user:
-  database:
-  basicAuth: false
-  basicAuthUser:
-  basicAuthPassword:
-  withCredentials:
-  isDefault: true
-  jsonData:
-     graphiteVersion: "1.1"
-     tlsAuth: false
-     tlsAuthWithCACert: false
-  secureJsonData:
-    tlsCACert: "..."
-    tlsClientCert: "..."
-    tlsClientKey: "..."
-  version: 1
-  editable: true
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    isDefault: true
+    url: http://172.10.1.20:9090
