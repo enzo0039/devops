@@ -18,4 +18,6 @@ docker compose up -d
 
 * API: http://localhost:5000/
 * Prometheus: http://localhost:9090/
-* Grafana: http://localhost:3000 `[username: admin, password: Superpass]`
+* Grafana: http://localhost:3000
+  * username: admin
+  * password: Superpass
